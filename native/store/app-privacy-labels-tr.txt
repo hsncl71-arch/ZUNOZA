@@ -1,0 +1,12 @@
+App Store Connect > App Privacy (nutrition labels)
+
+Toplanır, izleme için kullanılmaz:
+- E-posta
+- Kullanıcı kimliği
+- Ürün etkileşimi
+- Fotoğraflar veya videolar (kullanıcı içeriği)
+- Ses verisi
+
+Amaç: uygulama işlevi. Üçüncü taraflara reklam için verilmez.
+ATT / IDFA: kullanılmaz, NSUserTrackingUsageDescription yok.
+ITSAppUsesNonExemptEncryption = false (yalnızca HTTPS / işletim sistemi).

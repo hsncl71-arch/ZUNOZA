@@ -1,0 +1,32 @@
+ZUNOZA AI VIDEO — iOS cloud build (Mac yok)
+
+App Store Connect
+  Ad: ZUNOZA AI VIDEO
+  Bundle ID: com.zunoza.app
+  Sürüm: 1.0 (build 1)
+
+Bu ZIP Xcode projesi + Capacitor eklentileridir. IPA bu Linux ortamında üretilemez.
+
+Codemagic (önerilen)
+1. zip’i açıp repoya koy veya Codemagic’e yükle
+2. Apple Developer / App Store Connect entegrasyonu
+3. Bundle ID: com.zunoza.app
+4. Team ID’yi ios/ExportOptions.plist içindeki APPLE_TEAM_ID_TODO yerine yaz
+5. Workflow: zunoza-ios-app-store (kökteki codemagic.yaml)
+6. TestFlight’a yükle
+
+Xcode Cloud
+1. App Store Connect > Xcode Cloud
+2. Şema: App
+3. Bundle: com.zunoza.app
+
+StoreKit
+  Products.storekit + ZunozaBillingPlugin.swift App hedefinde.
+  IAP capability App Store Connect / Xcode’da açılmalı.
+
+Senden gerekenler (ZIP içinde yok, uydurulmadı)
+- Apple Team ID
+- App Store Connect API key (Issuer ID, Key ID, .p8)
+- IAP ürünlerini Connect’te oluşturmak (com.zunoza.app.credits.* / .premium.*)
+
+STORE_BILLING_READY hâlâ false. Web iyzico duruyor. Android applicationId değişmedi.

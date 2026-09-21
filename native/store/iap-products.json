@@ -1,0 +1,18 @@
+{
+  "iosBundleId": "com.zunoza.app",
+  "iosAppName": "ZUNOZA AI VIDEO",
+  "androidApplicationId": "app.zunoza.mobile",
+  "billingReady": false,
+  "products": [
+    { "packageId": "mini", "apple": "com.zunoza.app.credits.mini", "google": "credits_mini", "type": "consumable" },
+    { "packageId": "baslangic", "apple": "com.zunoza.app.credits.baslangic", "google": "credits_baslangic", "type": "consumable" },
+    { "packageId": "plus", "apple": "com.zunoza.app.credits.plus", "google": "credits_plus", "type": "consumable" },
+    { "packageId": "pro", "apple": "com.zunoza.app.credits.pro", "google": "credits_pro", "type": "consumable" },
+    { "packageId": "ultra", "apple": "com.zunoza.app.credits.ultra", "google": "credits_ultra", "type": "consumable" },
+    { "packageId": "max", "apple": "com.zunoza.app.credits.max", "google": "credits_max", "type": "consumable" },
+    { "packageId": "weekly", "apple": "com.zunoza.app.premium.weekly", "google": "premium_weekly", "type": "subscription" },
+    { "packageId": "monthly", "apple": "com.zunoza.app.premium.monthly", "google": "premium_monthly", "type": "subscription" },
+    { "packageId": "sixmo", "apple": "com.zunoza.app.premium.sixmo", "google": "premium_sixmo", "type": "subscription" },
+    { "packageId": "yearly", "apple": "com.zunoza.app.premium.yearly", "google": "premium_yearly", "type": "subscription" }
+  ]
+}

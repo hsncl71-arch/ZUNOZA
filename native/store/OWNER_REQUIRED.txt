@@ -1,0 +1,25 @@
+ZUNOZA — owner-only remaining steps. Billing code is in the app; live charge stays off.
+
+ANDROID (Play)
+1. Create Play Console app app.zunoza.mobile
+2. Create upload keystore. Copy android/keystore.properties.example → android/keystore.properties (real paths/passwords, do not commit)
+3. JDK 21 with ANDROID_HOME=/opt/android-sdk, then ./gradlew bundleRelease and upload the AAB
+4. Enable Play App Signing
+5. Create the 10 products in iap-products.json (in-app + subscription)
+6. Put Play Developer API JSON on the SERVER as GOOGLE_PLAY_SERVICE_ACCOUNT — never in the APK
+7. Optional: GOOGLE_PLAY_PACKAGE=app.zunoza.mobile
+
+IOS (App Store)
+1. Approved Apple Developer account
+2. Open ios/App/App.xcworkspace in Xcode, set Team (Automatic signing)
+3. Replace APPLE_TEAM_ID_TODO in ios/ExportOptions.plist
+4. Enable In-App Purchase capability; Products.storekit is the local catalog
+5. Archive → App Store Connect / TestFlight (Codemagic workflow zunoza-ios-app-store)
+6. Create the 10 IAP products
+7. Put App Store Server API key on the SERVER as APPLE_IAP_ISSUER_ID, APPLE_IAP_KEY_ID, APPLE_IAP_PRIVATE_KEY — never in the app
+
+THEN, only after live Apple/Google receipt verify works:
+8. Set STORE_BILLING_READY=true in src/lib/zunoza/store-billing.ts and ship a new build
+
+DO NOT: invent team IDs, keystores, or turn on store charges without verify.
+Web iyzico stays on the website only.

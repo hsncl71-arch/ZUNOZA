@@ -1,0 +1,45 @@
+.profile-orb {
+  width: 2.75rem;
+  height: 2.75rem;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  padding: 1.5px;
+  border-radius: 999px;
+  background:
+    linear-gradient(145deg, color-mix(in oklab, #c9dcff 78%, #8b7cff), color-mix(in oklab, #5b4dff 62%, #3ec7ff));
+  box-shadow:
+    0 0 0 1px color-mix(in oklab, #8b7cff 26%, transparent),
+    0 0 10px color-mix(in oklab, #6a4dff 18%, transparent);
+  transition: box-shadow 0.2s ease, filter 0.2s ease;
+}
+.profile-orb:hover,
+.profile-orb:focus-visible {
+  box-shadow:
+    0 0 0 1px color-mix(in oklab, #b7d4ff 40%, transparent),
+    0 0 14px color-mix(in oklab, #7b4dff 30%, transparent);
+}
+.profile-orb:active {
+  box-shadow:
+    0 0 0 1px color-mix(in oklab, #cfe0ff 46%, transparent),
+    0 0 16px color-mix(in oklab, #7b82ff 36%, transparent);
+}
+.profile-orb-inner {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  border-radius: inherit;
+  color: #d7e4ff;
+  background:
+    linear-gradient(180deg, color-mix(in oklab, #2a2640 70%, transparent), #0d0b14 62%),
+    #121018;
+  box-shadow: inset 0 1px 0 color-mix(in oklab, #fff 16%, transparent);
+}
+.profile-orb-inner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}

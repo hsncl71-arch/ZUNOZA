@@ -1,0 +1,29 @@
+{
+  "identifier" : "ZUNOZA",
+  "nonRenewingSubscriptions" : [],
+  "products" : [
+    { "displayPrice" : "89.99", "familyShareable" : false, "internalID" : "ZUNOZA1", "localizations" : [{ "description" : "Mini kredi", "displayName" : "Mini", "locale" : "tr" }], "productID" : "com.zunoza.app.credits.mini", "referenceName" : "Mini", "type" : "Consumable" },
+    { "displayPrice" : "179.99", "familyShareable" : false, "internalID" : "ZUNOZA2", "localizations" : [{ "description" : "Başlangıç kredi", "displayName" : "Başlangıç", "locale" : "tr" }], "productID" : "com.zunoza.app.credits.baslangic", "referenceName" : "Baslangic", "type" : "Consumable" },
+    { "displayPrice" : "349.99", "familyShareable" : false, "internalID" : "ZUNOZA3", "localizations" : [{ "description" : "Plus kredi", "displayName" : "Plus", "locale" : "tr" }], "productID" : "com.zunoza.app.credits.plus", "referenceName" : "Plus", "type" : "Consumable" },
+    { "displayPrice" : "699.99", "familyShareable" : false, "internalID" : "ZUNOZA4", "localizations" : [{ "description" : "Pro kredi", "displayName" : "Pro", "locale" : "tr" }], "productID" : "com.zunoza.app.credits.pro", "referenceName" : "Pro", "type" : "Consumable" },
+    { "displayPrice" : "1299.99", "familyShareable" : false, "internalID" : "ZUNOZA5", "localizations" : [{ "description" : "Ultra kredi", "displayName" : "Ultra", "locale" : "tr" }], "productID" : "com.zunoza.app.credits.ultra", "referenceName" : "Ultra", "type" : "Consumable" },
+    { "displayPrice" : "2499.99", "familyShareable" : false, "internalID" : "ZUNOZA6", "localizations" : [{ "description" : "Max kredi", "displayName" : "Max", "locale" : "tr" }], "productID" : "com.zunoza.app.credits.max", "referenceName" : "Max", "type" : "Consumable" }
+  ],
+  "settings" : { "_applicationInternalID" : "ZUNOZAAPP", "_developerTeamID" : "APPLE_TEAM_ID_TODO" },
+  "subscriptionGroups" : [
+    {
+      "id" : "ZUNOZA_PREMIUM",
+      "localizations" : [{ "name" : "ZUNOZA Premium", "locale" : "tr" }],
+      "subscriptions" : [
+        { "adHocOffers" : [], "codeOffers" : [], "displayPrice" : "499.99", "familyShareable" : false, "groupNumber" : 1, "internalID" : "ZUNOZA7", "introductoryOffer" : null, "localizations" : [{ "description" : "Haftalık Premium", "displayName" : "Haftalık", "locale" : "tr" }], "productID" : "com.zunoza.app.premium.weekly", "recurringSubscriptionPeriod" : "P1W", "referenceName" : "Weekly", "subscriptionGroupID" : "ZUNOZA_PREMIUM", "type" : "RecurringSubscription" },
+        { "adHocOffers" : [], "codeOffers" : [], "displayPrice" : "1499.99", "familyShareable" : false, "groupNumber" : 1, "internalID" : "ZUNOZA8", "introductoryOffer" : null, "localizations" : [{ "description" : "Aylık Premium", "displayName" : "Aylık", "locale" : "tr" }], "productID" : "com.zunoza.app.premium.monthly", "recurringSubscriptionPeriod" : "P1M", "referenceName" : "Monthly", "subscriptionGroupID" : "ZUNOZA_PREMIUM", "type" : "RecurringSubscription" },
+        { "adHocOffers" : [], "codeOffers" : [], "displayPrice" : "7499.99", "familyShareable" : false, "groupNumber" : 1, "internalID" : "ZUNOZA9", "introductoryOffer" : null, "localizations" : [{ "description" : "6 aylık Premium", "displayName" : "6 Ay", "locale" : "tr" }], "productID" : "com.zunoza.app.premium.sixmo", "recurringSubscriptionPeriod" : "P6M", "referenceName" : "Sixmo", "subscriptionGroupID" : "ZUNOZA_PREMIUM", "type" : "RecurringSubscription" },
+        { "adHocOffers" : [], "codeOffers" : [], "displayPrice" : "11999.99", "familyShareable" : false, "groupNumber" : 1, "internalID" : "ZUNOZA10", "introductoryOffer" : null, "localizations" : [{ "description" : "Yıllık Premium", "displayName" : "Yıllık", "locale" : "tr" }], "productID" : "com.zunoza.app.premium.yearly", "recurringSubscriptionPeriod" : "P1Y", "referenceName" : "Yearly", "subscriptionGroupID" : "ZUNOZA_PREMIUM", "type" : "RecurringSubscription" }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

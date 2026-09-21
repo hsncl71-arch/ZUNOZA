@@ -1,0 +1,12 @@
+Play Console > Uygulama içeriği > Veri güvenliği (kopyala-yapıştır)
+
+Toplanır, satılmaz, izleme yok, aktarımda şifreleme (HTTPS):
+- E-posta (hesap)
+- Kullanıcı kimliği
+- Fotoğraf ve video (kullanıcının yüklediği stüdyo medyası)
+- Ses (asistan / ses stüdyosu)
+- Uygulama etkileşimi
+
+Hesap silme: uygulama içi Verilerim
+Reklam kimliği: yok
+Konum / rehber / SMS: yok
